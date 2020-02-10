@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServerCe", "WebServerCe\WebServerCe.csproj", "{A9A7B8A9-9430-43DD-9C20-3A34C23CEDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServerTest", "WebServerTest\WebServerTest.csproj", "{64D375D6-EC2F-491F-B90D-E9B4132C7BEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A7B8A9-9430-43DD-9C20-3A34C23CEDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A7B8A9-9430-43DD-9C20-3A34C23CEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A7B8A9-9430-43DD-9C20-3A34C23CEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A7B8A9-9430-43DD-9C20-3A34C23CEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D375D6-EC2F-491F-B90D-E9B4132C7BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D375D6-EC2F-491F-B90D-E9B4132C7BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D375D6-EC2F-491F-B90D-E9B4132C7BEE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{64D375D6-EC2F-491F-B90D-E9B4132C7BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D375D6-EC2F-491F-B90D-E9B4132C7BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D375D6-EC2F-491F-B90D-E9B4132C7BEE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
