@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>WebServerCe Test</title>
+    <link rel="stylesheet" href="chartist/chartist.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <script src="chartist/chartist.min.js"></script>
+    <script language="javascript">
+        window.onpageshow = function (e) {
+            initCharts();
+        }
+    </script>
+
+    <div id="container">
+        <div id="header">
+            <ul id="mainmenu">
+                <li><a href="#UpdateSignal" onclick="loadData()">Update signal</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="TextData">
+                <p>This is simple web server running on Compact framework</p>
+            </div>
+            <div class="signal_chart_box">
+                <div>
+                    <p>Signal</p>
+                    <div class="signal_chart" id="signal"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

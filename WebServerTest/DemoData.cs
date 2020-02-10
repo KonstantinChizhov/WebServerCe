@@ -19,7 +19,7 @@ namespace WebServerTest
         public bool ProcessQuery(SimpleWebRequest request, HttpResponse response)
         {
             object result = null;
-            if (request.Path.Equals("/mayapp/api/v1/data.json", StringComparison.InvariantCultureIgnoreCase))
+            if (request.Path.Equals("/myapp/api/v1/data.json", StringComparison.InvariantCultureIgnoreCase))
             {
                 result = Data;
             }
